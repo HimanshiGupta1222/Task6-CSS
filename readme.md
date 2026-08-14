@@ -3,8 +3,11 @@
 ##Description:
 
 The page is divided into two sections using Flexbox.
+
 The left section contains an image.
+
 The right section contains the login form.
+
 A welcome heading is added at the top.
 
 A short description is placed below the heading.
