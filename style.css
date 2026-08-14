@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.Container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+.left-section{
+width: 50vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+ 
+
+}
+.left-section img{
+     height:100vh; 
+    width: 50vw;
+}
+
+
+.form-section{
+     background-color:lightcyan;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     align-items: center; 
+     padding-top:100px ;
+   
+     
+     
+    
+}
+.form-section h1{
+    font-family:Arial, sansa-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 2px;
+
+}
+
+.form-section p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    color: darkslategrey;
+    margin-bottom: 40px;
+}
+
+.Login-section{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+    color: darkslategrey;
+    
+}
+.email{
+    border-radius: 10px;
+    padding: 20px 15px;
+    padding-right:100px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    border: none;
+
+    
+}
+
+.pass{
+    border-radius: 10px;
+    padding: 20px 15px; 
+    padding-right:100px ;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+      border: none;
+     
+}
+
+
+
+
+
+.action-btn{
+    border-radius: 10px;
+    padding: 20px 15px; 
+    border: none;
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:700;
+    color: white;
+    background-color: aqua;
+    margin-bottom: 20px;
+    
+}
+
+.end{
+    
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: right;
+}
+
+.end span{
+    color: blue;
+}
+
+
